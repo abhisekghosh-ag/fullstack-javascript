@@ -1,0 +1,74 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+    max-width: 1440px;
+    overflow: hidden;
+    
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    margin:60px 0px;
+    margin-left: 150px;
+}
+.list{
+    display: flex;
+    color: #808080;
+    gap: 60px;
+    margin-left: 60px;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.list-item{
+  list-style: none;
+}
+.list-item:first-child{
+    color: #000;
+    font-weight: 600;
+}
+.button-group{
+      position:absolute;
+      right: 300px;
+}
+.navbar-container>div>img{
+    width: 90px;
+}
+.nav-button{
+    background-color: rgb(102, 102, 198);
+    padding: 15px 25px;
+    border-color: rgb(102, 102, 198);
+    border-style: none;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    width: 50%;
+}
+.heading-text{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(51, 38, 63);
+}
+span{
+    color:rgb(102, 102, 198) ;
+}
+.banner-container>div>img{
+    width: 800px;
+}
+.description{
+    color: #808080;
+    font-family: Poppins;
+    /* width: 400px; */
+    padding: 20px 0px 50px 0px;
+}

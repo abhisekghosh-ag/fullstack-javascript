@@ -1,0 +1,97 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* max-width: 1440px; */
+    /* overflow: hidden; */
+    color: #ffffff;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding-left: 60px;
+}
+nav>div>img{
+    width: 80px;
+}
+.line{
+    height: 40px;
+    margin-left: 40px;
+    border-left:2px solid #ffffff;
+}
+.list{
+    display:flex;
+    align-items: center;
+}
+.list-item{
+    list-style: none;
+    font-family: Montserrat;
+    color: #ffffff;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.list-item:first-child::after{
+     content: '▼'; 
+     position: relative;
+     left: 10px;
+     top: 2px;
+}
+.button-small{
+ position: absolute;
+ right: 60px;
+ top: 8px;
+ padding: 10px 25px;
+ border-radius: 10px;
+ background-color: #C539B4;
+ color: #ffffff;
+ font-size: 15px;
+ 
+}
+.hero{
+    margin-top: 130px;
+    /* display: flex; */
+    /* flex-direction: column; */
+  
+}
+.hero-heading{
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 80px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+   
+
+
+}
+.hero-description{
+    font-family: Montserrat;
+    color: #ffffffb3;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.button-large{
+    font-family: Montserrat;
+    font-size: 22px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #C539B4;
+    color: #ffffff;
+}
