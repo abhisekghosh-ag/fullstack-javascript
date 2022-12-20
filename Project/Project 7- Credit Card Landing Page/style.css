@@ -132,7 +132,7 @@ span{
     width: 120px;
 }
 #transaction-section{
-    height: 700px;
+    height: 720px;
     width:90%;
     margin: auto;
 }
@@ -189,4 +189,23 @@ span{
     border-left:2px solid #f8f8f8;
     border-bottom:1px solid #f8f8f8;
     text-align: center;
+}
+#card-choice-section{
+    height: 900px;
+    width: 100%;
+    background-color: #f8f8f8;
+    color: #000;
+}
+.card-choice-section{
+    width: 90%;
+    height: 800px;
+    margin:auto;
+    text-align: center;
+}
+.card-choice-section>div{
+    width: 50%;
+    margin: auto;
+}
+.card-choice-section>div>img{
+    width: 800px;
 }
