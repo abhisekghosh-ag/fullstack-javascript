@@ -3,5 +3,5 @@
 
 [check out this link for live website] (https://vs-code-web-clone.netlify.app)
 
-some sample output :- 
+some sample output :-
 ![outout img](./output-img/output-one.jpg)

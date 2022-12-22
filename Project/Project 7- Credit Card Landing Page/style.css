@@ -6,10 +6,11 @@
 body{
     /* max-width: 1440px; */
     margin: auto;
-    background-color: #000;
+    background-color: rgb(22, 21, 21);
     color: #f8f8f8;
     font-family: 'Montserrat';
 }
+/* navbar-section */
 nav{
     margin: 20px 5%;
     display: flex;
@@ -107,8 +108,18 @@ span{
 .hero-section>.right-section{
     width: 60%;
 }
+.hero-bg{
+    position: relative;
+    width: 60%;
+    left: 500px;
+    bottom: 100px;
+    margin: auto;
+    z-index: -1;
+}
 .right-section>img{
-    width: 50vw;
+    z-index:-1;
+    position: absolute;
+    width:50vw;
 }
 
 /* logo section */
@@ -272,7 +283,7 @@ span{
     width: 180px;
 }
 .star:first-child{
-    border: 2px solid #f8f8f8;
+    border:2px solid #f8f8f8;
     background: #8080809c;
 }
 /* last section */
