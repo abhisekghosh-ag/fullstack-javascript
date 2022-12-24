@@ -11,7 +11,7 @@ body{
     font-family: 'Poppins';
 }
 nav{
-    width: 90%;
+    width: 85%;
     margin: auto;
     height: 120px;
     display: flex;
@@ -37,7 +37,7 @@ nav>button{
 /* top-hero section */
 .top-hero{
     margin-top: 100px;
-    width: 90%;
+    width: 85%;
     height: 66vh;
     margin: auto;
     display: flex;
@@ -79,6 +79,7 @@ nav>button{
 }
 .top-hero>div>img{
   height: 105%;
+  margin-left: 60px;
 }
 /* logo-img section */
 #logo-img{
@@ -98,14 +99,13 @@ nav>button{
 }
 /*2nd hero section */
 #hero-section-2{
-    height: 150vh;
     width: 100%;
+    padding: 80px 0px;
     background-color: #fff;
     color: #000;
 }
 .hero-section-2{
-    width: 90%;
-    height: 140vh;
+    /* width: 90%; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -165,13 +165,208 @@ nav>button{
 }
 .hero2-title2>h1{
     font-size: 48px;
+    width: 80%;
 }
 .hero2-last{
     display: flex;
     width: 85%;
     margin: auto;
+    gap: 80px;
 }
 .hero2-last-left{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.hero2-last-left>button{
+    padding: 20px;
+    width: 90%;
+    height: 80px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight:bold;
+    color: #000;
+}
+.hero2-last-left>button:first-child{
+    color: #f8f8f8;
+    border: none;
+}
+.hero2-last-left>button>img{
+   width: 8%;
+}
+.hero2-last-right{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    width: 40%;
+    border-radius: 20px;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+.hero2-last-right>li{
+    background-color: #222;
+    list-style-position: inside;
+    width: 90%;
+    padding:12px;
+    margin: auto;
+    border-radius: 16px;
+}
+/* pricing section */
+#price-section{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.price-top{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.price-top>h1{
+    width: 60%;
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+}
+.price-bottom{
+    margin-top: 40px;
+    display: flex;
+    gap: 2%;
+}
+.price-bottom>div{
+    margin: auto;
+    border:none;
+    width: 30%;
+    padding:30px 20px;
+    border-radius: 30px;
+}
+/* price left section */
+.price-left{
+    background-color: #f8f8f8;
+    color: #000;
+}
+.price-left>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price-left>div>h2{
+    font-size: 36px;
+}
+.price-left>div>h1{
+    font-size: 48px;
+}
+.price-left>div>h1>span{
+    font-size: 28px;
+    color: #797878;
+}
+.price-left>ul{
+   padding: 30px 5px;
+}
+.price-left>ul>li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.price-left>button{
+    padding: 20px 42%;
+    border-radius: 25px;
+    margin: auto;
+    color: #f8f8f8;
+    font-size: 19px;
+    border: none;
+}
+/* middle price section */
+.price-mid{
+    background-color: #1088ffea;
+    color: #f8f8f8;
+}
+.price-mid>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price-mid>div>h2{
+    font-size: 36px;
+}
+.price-mid>div>h1{
+    font-size: 48px;
+}
+.price-mid>div>h1>span{
+    font-size: 28px;
+    color: #797878;
+}
+.price-mid>ul{
+   padding: 30px 5px;
+}
+.price-mid>ul>li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.price-mid>button{
+    padding: 20px 42%;
+    border-radius: 25px;
+    margin: auto;
+    background-color: #f8f8f8;
+    color: #1088ffea;
+    font-size: 19px;
+    border: none;
+}
+/* price right section */
+.price-right{
+    background-color: #f8f8f8;
+    color: #000;
+}
+.price-right>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price-right>div>h2{
+    font-size: 36px;
+}
+.price-right>div>h1{
+    font-size: 48px;
+}
+.price-right>div>h1>span{
+    font-size: 28px;
+    color: #797878;
+}
+.price-right>ul{
+   padding: 30px 5px;
+}
+.price-right>ul>li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.price-right>button{
+    padding: 20px 42%;
+    border-radius: 25px;
+    margin: auto;
+    color: #f8f8f8;
+    font-size: 19px;
+    border: none;
 }
