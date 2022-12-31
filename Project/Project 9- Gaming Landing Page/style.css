@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
 }
 .hero-section-one{
     background:url(./Assets/Photos/futuristic-bg.png);
@@ -82,12 +86,14 @@ nav>div:last-child{
     justify-content: space-around;
 }
 .hero-left>h1{
-    width: 80%;
-    font-size: 56px;
+    width: 70%;
+    font-size: 44px;
+    font-weight: bolder;
 }
 .hero-left>p{
-    width: 70%;
-    font-size: 18px;
+    width: 80%;
+    font-size: 16px;
+    color: #908e8e;
 }
 .hero-left>.left-btn{
     display: flex;
@@ -131,9 +137,9 @@ nav>div:last-child{
     align-items: center;
 }
 .popular-game-heading{
-    font-size: 40px;
+    font-size: 32px;
     margin: 60px 0px;
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 .popular-games{
@@ -215,13 +221,13 @@ nav>div:last-child{
 }
 .war-right>h1{
     width: 80%;
-    font-size: 50px;
+    font-size: 40px;
 }
 .war-right>p{
     color: #797979;
     margin: 20px 0px;
-    font-size: 16px;
-    width: 80%;
+    font-size: 15px;
+    width: 85%;
 }
 .war-btn>.secondary-btn{
     border-color: #FF6E31;
@@ -242,7 +248,7 @@ nav>div:last-child{
 }
 .game-recommend-title>h1{
     font-size: 40px;
-    width: 30%;
+    width: 40%;
 }
 .game-recommend-title>div{
     margin-right: 30px;
@@ -264,7 +270,7 @@ nav>div:last-child{
 .recommened-games{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 120px 100px 120px;
+    margin: 20px 5%;
     gap: 90px;
 }
 .top-rec-sec{
@@ -289,7 +295,7 @@ nav>div:last-child{
     width: 50%;
 }
 .rec-game-details>h2{
-    font-size: 32px;
+    font-size: 25px;
 }
 .rec-game-details>span{
     color: #ec8b29;
@@ -298,8 +304,7 @@ nav>div:last-child{
     margin-top: 16px;
 }
 .rec-game-details>p{
-    width: 80%;
-    font-size: 15px;
+    font-size: 14px;
     color: #787878;
     margin: 20px 0px;
 }
@@ -339,7 +344,7 @@ nav>div:last-child{
     margin-top: 30px;
 }
 .mpg-right>p:nth-child(1){
-    width: 60%;
+    width: 70%;
     margin: auto;
     font-size: 17px;
     color: #908e8e;
@@ -376,7 +381,7 @@ nav>div:last-child{
     font-size: 40px;
 }
 .game-exp>div>p{
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
@@ -428,11 +433,9 @@ footer{
     color: #979595;
 }
 .line{
-    background-color: #000;
     margin: 60px 0px;
     height: 100px;
 }
 .line>hr{
     width: 100%;
-    background-color: #fff;
 }
