@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+    font-family: 'Poppins';
+}
+/* first hero section */
+.hero-first{
+    height:100vh;
+    background-image: url(./Photos/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: #ffffff;
+}
+/* nav bar */
+nav{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 0px;
+}
+nav>img{
+    width: 160px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 70px;
+    font-size: 18px;
+}
+nav>ul>li{
+    list-style: none;
+}
+.hero-first>hr{
+    width: 90%;
+    margin: auto;
+}
+.hero-first>.hero-1{
+    width: 84%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    /* align-items: center; */
+
+}
+.hero-1>h1{
+    font-size: 60px;
+    width: 50%;
+}
+.hero-1>p{
+    width: 35%;
+    font-size: 18px;
+}
+.hero-1>button{
+    width: 160px;
+    padding:20px 10px;
+    background-color:#4B56D2;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 18px;
+}
+/* logo name */
+.logo-name{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    bottom: 50px;
+}
+/* best estate section  */
+.estate-title>h1{
+   font-size: 54px;
+   text-align: center;
+}
+.estates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 240px;
+}
+.estate-detail-box{
+    width: 380px;
+    height: 440px;
+    border-radius: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.estates>div:nth-child(1){
+    background-image: url(./Photos/cardImage1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estates>div:nth-child(2){
+    background-image: url(./Photos/cardImage2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estates>div:nth-child(3){
+    background-image: url(./Photos/cardImage3.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.estates>div:nth-child(4){
+    background-image: url(./Photos/cardImage4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estates>div:nth-child(5){
+    background-image: url(./Photos/cardImage5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estates>div:nth-child(6){
+    background-image: url(./Photos/cardImage6.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.estates>div:nth-child(7){
+    background-image: url(./Photos/cardImage7.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.estates>div:nth-child(8){
+    background-image: url(./Photos/cardImage8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estates>div:nth-child(9){
+    background-image: url(./Photos/cardImage9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estate-details{
+    width: 90%;
+    padding: 20px 0px;
+    position: relative;
+    top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.estate-price>p:nth-child(1){
+    font-size: 24px;
+    font-weight: 500;
+}
+.estate-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.estate-price>p:nth-child(2){
+    font-size: 22px;
+    font-weight: 600;
+    color: #4B56D2;
+}
+.estate-details>div:last-child>button{
+    background-color: #4B56D2;
+    color: #ffffff;
+    border: none;
+    border-radius: 28px;
+    padding: 18px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.estates>div:nth-child(2){
+    margin-top: 60px;
+}
+.estates>div:nth-child(3){
+    margin-top: 120px;
+}
+.estates>div:nth-child(4){
+    margin-top: 120px;
+}
+.estates>div:nth-child(5){
+    margin-top: 60px;
+}
+.estates>div:nth-child(8){
+    margin-top:60px;
+}
+.estates>div:nth-child(9){
+    margin-top: 120px;
+}
+/* house features like: modern trendy affordable */
+.modern-trendy{
+    width: 100%;
+    margin: 160px auto;
+    display: flex;
+    align-items:center;
+    gap: 80px;
+    position: relative;
+}
+.modern-trendy>div{
+    width: 50%;
+}
+.modern-left>img:nth-child(1){
+    position: absolute;
+    left: 8%;
+    top: -8%;
+    width: 500px;
+    height: 480px;
+    border-radius: 40px;
+}
+.modern-left>img:nth-child(2){
+    width: 680px;
+    z-index: -1;
+}
+.modern-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: -40px;
+}
+.modern-right>h1{
+    width: 70%;
+    font-size: 54px;
+    /* margin-top: 10px; */
+}
+.modern-right>p{
+    width: 70%;
+    font-size: 17px;
+    color: #838383;
+}
+.early-bird{    width: max-content;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 22px 36px;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color:#4B56D2;
+}
+/* unique house  */
+.unique-house{
+    width: 100%;
+    margin: 160px auto;
+    display: flex;
+    align-items:center;
+    gap: 80px;
+    position: relative;
+}
+.unique-house>div{
+    width: 50%;
+}
+.unique-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 7%;
+    margin-top: -40px;
+}
+.unique-left>h1{
+    width: 70%;
+    font-size: 54px;
+    /* margin-top: 10px; */
+}
+.unique-left>p{
+    width: 70%;
+    font-size: 17px;
+    color: #898999;
+}
+.unique-right>img:nth-child(1){
+    position: absolute;
+    right: 8%;
+    top: -8%;
+    width: 500px;
+    height: 480px;
+    border-radius: 40px;
+}
+.unique-right>img:nth-child(2){
+    width: 680px;
+    z-index: -1;
+}
+/* news letter section */
+.newsletter{
+    width: 90%;
+    margin: 160px auto;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-around;
+    background-color: #4B56D2;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.newsletter>h1{
+    font-size: 54px;
+    font-weight: 600;
+    width:62%;
+    margin: auto;
+    text-align: center;
+}
+.newsletter>p{
+    font-size: 18px;
+    width:50%;
+    margin: auto;
+    text-align: center;
+    color: #d1cdcd;
+}
+.news-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+}
+.input-field{
+    width: 450px;
+    padding: 24px 72px;
+    border-radius: 40px;
+    border: none;
+    font-size: 17px;
+    background-color: #0000002d; 
+}
+::placeholder {
+    color:#fdfdfd78;
+}
+.input-container>img:nth-child(1){
+    position: relative;
+    left: 50px;
+}
+.sub-btn{
+    color:#4B56D2;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 20px 42px;
+    border-radius: 30px;
+    border: none;
+}
+/* footer section */
+footer{
+    width: 84%;
+    margin:80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items:flex-start;
+}
+.footer-left>p:nth-child(3){
+    font-size: 20px;
+    width: 60%;
+    color: #00000091;
+}
+.footer-logos{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.footer-lists{
+    display: flex;
+    font-size: 20px;
+    color: #222;
+    gap: 150px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-list>li:nth-child(1){
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
