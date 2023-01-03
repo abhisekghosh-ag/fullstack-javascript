@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000ec;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+/* main section */
+.main-section{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.main-left{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    gap: 40px;
+}
+.main-img{
+    position: relative;
+    top: -120px;
+    width: 250px;
+    height: 600px;
+}
+.beats-logo{
+    position: relative;
+    top: 50px;
+}
+.main-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navbar{
+    display: flex;
+    gap: 90px;
+    height: 120px;
+    align-items: center;
+    color: #e1e1e1;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+}
+.shop-btn{
+    border: none;
+    color: #ededed;
+    background-color: #222;
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.main-right>img:nth-child(2){
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    width: 380px;
+}
+.main-right>h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.main-right>h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main-right>p:nth-child(5){
+    width: 45%;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #d5d5d5;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+    background-color: #222;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.cart>p:last-child{
+    font-size: 16px;
+    font-weight:bolder;
+}
+/* brand logo section */
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 60px 0px;
+}
