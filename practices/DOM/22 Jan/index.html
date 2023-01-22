@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:10px 0;
+        margin: 0;
+    }
+    button{
+        padding: 20px;
+        font-size: 22px;
+        background-color: #222222;
+        color: #ffffff;
+        border-radius: 25px;
+    }
+</style>
+
+<body>
+    <!-- document, windows, id class , tag, queryselector -->
+    <!-- alert, condfirm, prompt, innerHTML and innerText -->
+    <h1>Hello Javascript Bootcamp</h1>
+    <ul>
+
+    </ul>
+    <button onclick="maths()" id="fsjs2"> Fun Activity click</button>
+    <p id="js"></p>
+    <script>
+        // insert inner HTML
+        const list = `
+            <li>Rohit</li>
+            <li>Manas</li>
+            <li>Binod</li>
+            <li>Kunal</li>
+            <li>Bisal</li>
+        `;
+        const ul = document.querySelector("ul")
+        ul.innerHTML = list;
+
+        // Create Element on Screen
+        let title = document.createElement("h1")
+        title.className = "title";
+        title.style.fontSize = "25px";
+        title.style.color = "green";
+        title.textContent = "Creating New Element in DOM Day 2";
+        // console.log(title)
+        document.body.appendChild(title)
+
+
+        // Remove Child => Assignment
+        let listItem = document.querySelector("ul");
+        document.body.removeChild(listItem)
+
+        // For loop
+        for (let i = 0; i < 3; i++) {
+            let paragraph = document.createElement("p")
+            paragraph.className = "FSJS";
+            paragraph.style.fontSize = "16px"
+            console.log(paragraph)
+            paragraph.textContent = i; //here i's value assign into paragraph (0,1,2)
+            document.body.appendChild(paragraph)
+
+        }
+        function maths() {
+            let value = prompt("Solve This 50 - 30");
+            if (value == 20) {
+                document.getElementById("js").innerText = "Success Redirect";
+                document.getElementById("fsjs2").style.backgroundColor = "Green"
+            }
+            else {
+                document.getElementById("js").innerText = "Fail Try Again";
+                document.getElementById("fsjs2").style.backgroundColor = "Red"
+            }
+
+        }
+
+
+    </script>
+    <!-- <h1 class="title" style="font-size: 25px; color: green;"></h1> -->
+</body>
+
+</html>
